@@ -1,0 +1,28 @@
+# Common
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+
+# VitePress
+.vitepress/dist/
+.vitepress/cache/
+
+# Python (General & Projects)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+
+# Project Specific (React/Vite)
+projects/*/node_modules/
+projects/*/dist/
+projects/*/.vite/
+projects/*/build/
+
+# IDEs
+.vscode/
+.idea/
