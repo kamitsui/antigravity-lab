@@ -3,7 +3,7 @@
 ReactとViteを使用した、モダンなデザインのタスク管理アプリが完成しました。
 「グラスモーフィズム」を取り入れた美しいUIで、日々のタスク管理を楽しくします。
 
-[🚀 ライブデモを見る](/apps/task-manager/index.html){target="_blank"}
+[🚀 ライブデモを見る](../../../apps/task-manager/index.html){target="_blank"}
 
 ## ✨ 実装機能
 

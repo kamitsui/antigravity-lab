@@ -6,7 +6,7 @@ Antigravity Lab で開発されたプロジェクトの一覧です。
 
 ### [Modern Task Manager](./task-manager/README.md)
 React と Vite を使用したタスク管理アプリ。グラスモーフィズムデザインを採用。
-- [🚀 ライブデモ (新規ウィンドウ)](/apps/task-manager/index.html){target="_blank"}
+- [🚀 ライブデモ (新規ウィンドウ)](../apps/task-manager/index.html){target="_blank"}
 
 ## 🐍 Python Tools
 
