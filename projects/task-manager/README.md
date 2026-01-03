@@ -2,7 +2,7 @@
 
 ReactとViteを使用した、グラスモーフィズムデザインのタスク管理アプリです。
 
-![Task Manager Screenshot](/screenshots/task-manager.png)
+![Task Manager Screenshot](/screenshots/task-manager.webp)
 
 ## 🚀 クイックスタート
 

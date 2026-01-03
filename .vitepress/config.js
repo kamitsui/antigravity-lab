@@ -43,7 +43,8 @@ export default defineConfig({
                         items: [
                             { text: 'Overview', link: '/projects/number-guessing-game/README' },
                             { text: 'Walkthrough', link: '/projects/number-guessing-game/docs/walkthrough' },
-                            { text: 'Implementation Plan', link: '/projects/number-guessing-game/docs/implementation_plan' }
+                            { text: 'Implementation Plan', link: '/projects/number-guessing-game/docs/implementation_plan' },
+                            { text: 'Implementation Plan', link: '/projects/number-guessing-game/docs/task' }
                         ]
                     }
                 ]

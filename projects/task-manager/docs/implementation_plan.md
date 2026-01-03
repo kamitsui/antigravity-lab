@@ -16,7 +16,7 @@
 - **フォント**: Google Fonts (モダンな印象を与える Inter または Noto Sans JP)
 
 ### [Design System]
-#### [NEW] [index.css](file:///Users/kamitsui/Documents/tmp/task-manager/src/index.css)
+#### [NEW] index.css
 - カラーパレット用のCSS変数を定義 (ダークモダンテーマ):
     - 背景: 深みのあるリッチなグラデーション
     - 表面: 半透明のガラス効果 (backdrop-filter)
@@ -33,20 +33,20 @@
 
 
 ### [Components]
-#### [NEW] [App.jsx](file:///Users/kamitsui/Documents/tmp/task-manager/src/App.jsx)
+#### [NEW] App.jsx
 - 背景グラデーションを含むメインレイアウトコンテナ。
 - アプリケーションの状態管理 (タスクのリスト)。
 - ローカルストレージへの保存処理.
 
-#### [NEW] [components/TaskForm.jsx](file:///Users/kamitsui/Documents/tmp/task-manager/src/components/TaskForm.jsx)
+#### [NEW] components/TaskForm.jsx
 - フローティングラベルまたはアニメーション付きフォーカス状態を持つスタイリッシュな入力フィールド。
 - ホバー時に光る効果を持つ「タスク追加」ボタン。
 
-#### [NEW] [components/TaskList.jsx](file:///Users/kamitsui/Documents/tmp/task-manager/src/components/TaskList.jsx)
+#### [NEW] components/TaskList.jsx
 - タスクリストの表示領域。
 - タスクがない場合のフレンドリーなメッセージ/アイコン表示。
 
-#### [NEW] [components/TaskItem.jsx](file:///Users/kamitsui/Documents/tmp/task-manager/src/components/TaskItem.jsx)
+#### [NEW] components/TaskItem.jsx
 - グラスモーフィズムスタイルの個別タスクカード。
 - 完了チェックボックス (アニメーション付き)。
 - 削除ボタン (ホバー時に表示、またはさりげなく常時表示)。

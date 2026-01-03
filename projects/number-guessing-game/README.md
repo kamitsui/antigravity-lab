@@ -2,7 +2,7 @@
 
 Python と `rich` ライブラリを使用した、視覚的に洗練されたコマンドラインインターフェース（CLI）の数当てゲームです。
 
-![Number Guessing Game Screenshot](/screenshots/number-game.png)
+![Number Guessing Game Screenshot](/screenshots/number-game.webp)
 
 ## ✨ 特徴
 

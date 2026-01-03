@@ -30,7 +30,7 @@ python main.py
 
 ## 📸 スクリーンショット
 
-![Number Guessing Game Screenshot](/screenshots/number-game.png)
+![Number Guessing Game Screenshot](/screenshots/number-game.webp)
 
 ## 📜 ドキュメント
 

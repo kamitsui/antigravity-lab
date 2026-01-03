@@ -1,0 +1,27 @@
+# 改行コードの自動判定
+* text=auto
+
+# ソースコードはLFに固定（Mac/Linux/Windows間の互換性）
+*.js text eol=lf
+*.jsx text eol=lf
+*.py text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+
+# バイナリファイルの定義（差分比較を行わない、改行コード変換もしない）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.svg text
+*.pdf binary
+
+# Git LFS を使う場合の予約（今回は未使用ですが、将来のため）
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.zip filter=lfs diff=lfs merge=lfs -text

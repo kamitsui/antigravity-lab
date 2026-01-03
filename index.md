@@ -6,7 +6,7 @@ hero:
   text: AI Collaborative Experiment Grounds
   tagline: Exploring modern web and software development with Antigravity AI.
   image:
-    src: /logo.png
+    src: /logo.webp
     alt: Antigravity Lab
   actions:
     - theme: brand
