@@ -24,6 +24,14 @@
     - テキスト: 高コントラストな白/グレー
 - グローバルリセットとタイポグラフィ設定。
 
+<details>
+<summary>📄 index.css のソースコードを見る</summary>
+
+<<< @/projects/task-manager/src/index.css
+
+</details>
+
+
 ### [Components]
 #### [NEW] [App.jsx](file:///Users/kamitsui/Documents/tmp/task-manager/src/App.jsx)
 - 背景グラデーションを含むメインレイアウトコンテナ。
@@ -42,6 +50,42 @@
 - グラスモーフィズムスタイルの個別タスクカード。
 - 完了チェックボックス (アニメーション付き)。
 - 削除ボタン (ホバー時に表示、またはさりげなく常時表示)。
+
+<details>
+<summary>📦 全コンポーネントのソースコードをコードグループで見る</summary>
+
+::: code-group
+<<< @/projects/task-manager/src/App.jsx [App.jsx]
+<<< @/projects/task-manager/src/components/TaskForm.jsx [TaskForm.jsx]
+<<< @/projects/task-manager/src/components/TaskList.jsx [TaskList.jsx]
+<<< @/projects/task-manager/src/components/TaskItem.jsx [TaskItem.jsx]
+:::
+
+</details>
+
+## 🎓 練習ドリル：自力で作ってみよう！
+このプロジェクトを自力で再現するためのステップバイステップ・ドリルです。
+
+### ステップ1: 環境構築
+1. `npm create vite@latest my-task-app -- --template react` でプロジェクトを作成。
+2. `App.jsx` と `index.css` を空にします。
+
+### ステップ2: デザインの基礎 (CSS)
+1. `index.css` に `:root` 変数を定義し、深いグラデーションの背景を設定してください。
+2. グラスモーフィズム（背景ぼかし）を実現するために `backdrop-filter: blur()` を使ってみましょう。
+
+### ステップ3: 状態管理 (App.jsx)
+1. `useState` を使って、タスクの配列（`tasks`）を管理してください。
+2. タスクを追加する関数 `addTask` を作成してください。
+
+### ステップ4: コンポーネント分割
+1. **TaskForm**: 入力を受け取り、ボタンクリックで `addTask` を呼び出す。
+2. **TaskList**: `tasks.map()` を使って複数の `TaskItem` を表示する。
+3. **TaskItem**: 完了/未完了の切り替えと、削除機能を実装する。
+
+### ステップ5: 永続化
+1. `useEffect` を2つ使い、「初回読み込み時の取得」と「データ更新時の保存」を `localStorage` に対して実装してください。
+
 
 ## 検証計画
 
