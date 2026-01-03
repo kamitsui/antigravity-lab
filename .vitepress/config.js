@@ -4,6 +4,13 @@ export default defineConfig({
     title: "Antigravity Lab",
     description: "Experiments and technical documentation produced with Antigravity AI",
     base: '/antigravity-lab/', // GitHub Pagesのリポジトリ名に合わせて設定
+    ignoreDeadLinks: [
+        // ignore all links to /apps/ since they are integrated at build time
+        /^\/apps\//,
+        // ignore links that are just directories in the source tree but valid file targets
+        './projects/task-manager',
+        './projects/number-guessing-game'
+    ],
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },

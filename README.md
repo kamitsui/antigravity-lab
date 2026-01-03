@@ -10,11 +10,11 @@ Antigravity AIと共に開発した様々な実験的プロジェクトと、そ
 
 ## 🧪 進行中のプロジェクト
 
-### 1. [Modern Task Manager](./projects/task-manager)
+### 1. [Modern Task Manager](./projects/task-manager/README.md)
 - **Tech Stack**: React, Vite, Vanilla CSS
 - **Features**: グラスモーフィズムUI、LocalStorage永続化、GitHub Pages自動デプロイ設定。
 
-### 2. [Premium Number Guessing Game](./projects/number-guessing-game)
+### 2. [Premium Number Guessing Game](./projects/number-guessing-game/README.md)
 - **Tech Stack**: Python, Rich
 - **Features**: プレミアムなCLI体験、3段階の難易度、ランクシステム。
 
