@@ -37,4 +37,4 @@ npm run dev
 
 ## 📸 スクリーンショット
 
-![Task Manager Screenshot](/screenshots/task-manager.png)
+![Task Manager Screenshot](/screenshots/task-manager.webp)
